@@ -53,31 +53,45 @@
 
 #region task4
 // Console.WriteLine("Bali daxil edin:");
-int inputScore = int.Parse(Console.ReadLine());
-switch (inputScore)
-{
-    case inputScore >= 91 && inputScore <= 100:
-        Console.WriteLine("--------------------\nNetice: Ela");
-        break;
-    case inputScore >= 81 && inputScore <=90:
-        Console.WriteLine("--------------------\nNetice: Yaxsi");
-        break;
-    case inputScore >= 71 && inputScore <=80:
-        Console.WriteLine("--------------------\nNetice: Orta");
-        break;
-    case inputScore >= 61 && inputScore <=70:
-        Console.WriteLine("--------------------\nNetice: Kafi");
-        break;
-    case inputScore >= 51 && inputScore <=60:
-        Console.WriteLine("--------------------\nNetice: Zeif");
-        break;
-    default:
-        Console.WriteLine("--------------------\nNetice: GG");
-};
+// int inputScore = int.Parse(Console.ReadLine());
+// switch (inputScore)
+// {
+//     case >= 91 and <= 100:
+//         Console.WriteLine("--------------------\nNetice: Ela");
+//         break;
+//     case >= 81 and <= 90:
+//         Console.WriteLine("--------------------\nNetice: Yaxsi");
+//         break;
+//     case >= 71 and <= 80:
+//         Console.WriteLine("--------------------\nNetice: Orta");
+//         break;
+//     case >= 61 and <= 70:
+//         Console.WriteLine("--------------------\nNetice: Kafi");
+//         break;
+//     case >= 51 and <= 60:
+//         Console.WriteLine("--------------------\nNetice: Zeif");
+//         break;
+//     default:
+//         Console.WriteLine("--------------------\nNetice: GG");
+//         break;
+// };
 #endregion
 
 #region task5
-/* 
-    ...
- */
+// int input = int.Parse(Console.ReadLine());
+// if(input < 10 || input > 20)
+// {
+//     Console.WriteLine("Invalid input!");
+// }
+// else
+// {
+//     if(input % 2 == 0)
+//     {
+//         Console.WriteLine(input + " is a even value");
+//     }
+//     else
+//     {
+//         Console.WriteLine(input + " is a odd value");
+//     };
+// };
 #endregion
