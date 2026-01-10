@@ -51,25 +51,54 @@
 #endregion
 
 #region Sort_v2
-static void Sort(int[] arr)
-{
-    for(int j=0; j<arr.Length; j++)
-    {
-        for(int i=0; i<arr.Length; i++)
-        {
-            if(arr[j] < arr[i])
-            {
-                int number = arr[j];
-                arr[j] = arr[i];
-                arr[i] = number;
-            };
-        };
-    };
+// static void Sort(int[] arr)
+// {
+//     for(int j=0; j<arr.Length; j++)
+//     {
+//         for(int i=0; i<arr.Length; i++)
+//         {
+//             if(arr[j] < arr[i])
+//             {
+//                 int number = arr[j];
+//                 arr[j] = arr[i];
+//                 arr[i] = number;
+//             };
+//         };
+//     };
     
-    foreach(int number in arr)
+//     foreach(int number in arr)
+//     {
+//         Console.Write(number + " ");
+//     };
+// };
+// Sort(new int[] {5, 99, 0, 3, 2, 6, 8, 7, 9, 100, 10, 4});
+#endregion
+
+#region Sort_v3
+using System;
+namespace HelloWorld
+{
+    public class Program
     {
-        Console.Write(number + " ");
+        public void Main(string[] args)
+        {}
+
+        public void Sort(int[] arr)
+        {
+            for(int i=0; i<arr.Length; i++)
+            {
+                for(int j=i+1; j<arr.Length; j++)
+                {
+                    if(arr[i] > arr[j])
+                    {
+                        int temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    };
+                };
+            };
+            Console.WriteLine(arr);
+        }
     };
 };
-Sort(new int[] {5, 99, 0, 3, 2, 6, 8, 7, 9, 100, 10, 4});
 #endregion
