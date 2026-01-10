@@ -32,6 +32,7 @@
 
 // (int, string, int) info1 = (1996, "Orxan", 30); // tuple type
 // (int year, string name, int age) info2 = (1996, "Orxan", 30);
+// Console.WriteLine(info2.age);
 
 // // parameters which has default value(s) must be on end
 // static string GetText(string prefix, string text="Empty")
