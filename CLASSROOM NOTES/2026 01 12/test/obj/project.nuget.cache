@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IN0+ikzfCuI=",
+  "dgSpecHash": "pjxUqnkEZ8M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\KB\\vacsharp\\2026 01 12\\Untitled.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 12\\test\\Untitled.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kanan\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\kanan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\kanan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\kanan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

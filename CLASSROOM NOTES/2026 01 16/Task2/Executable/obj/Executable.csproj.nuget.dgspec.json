@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Executable\\Executable.csproj": {}
+    "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Executable\\Executable.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Executable\\Executable.csproj": {
+    "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Executable\\Executable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Executable\\Executable.csproj",
+        "projectUniqueName": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Executable\\Executable.csproj",
         "projectName": "Executable",
-        "projectPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Executable\\Executable.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Executable\\obj\\",
+        "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Executable\\Executable.csproj",
+        "packagesPath": "C:\\Users\\kanan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Executable\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Models\\Models.csproj"
+              "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Models\\Models.csproj"
               }
             }
           }
@@ -347,20 +347,20 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Models\\Models.csproj": {
+    "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 16\\Task2\\Models\\obj\\",
+        "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\kanan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 16\\Task2\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Program\\program.csproj": {}
+    "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Program\\program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Models\\models.csproj": {
+    "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Models\\models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Models\\models.csproj",
+        "projectUniqueName": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Models\\models.csproj",
         "projectName": "models",
-        "projectPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Models\\models.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Models\\obj\\",
+        "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Models\\models.csproj",
+        "packagesPath": "C:\\Users\\kanan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -343,20 +343,20 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Program\\program.csproj": {
+    "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Program\\program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Program\\program.csproj",
+        "projectUniqueName": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Program\\program.csproj",
         "projectName": "program",
-        "projectPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Program\\program.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Program\\obj\\",
+        "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Program\\program.csproj",
+        "packagesPath": "C:\\Users\\kanan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Program\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -371,8 +371,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Models\\models.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 15\\Task1\\Models\\models.csproj"
+              "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Models\\models.csproj": {
+                "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 15\\Task1\\Models\\models.csproj"
               }
             }
           }
