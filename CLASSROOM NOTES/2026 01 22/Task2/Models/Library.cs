@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace Models;
+﻿namespace Models;
 
 public static class Library
 {
@@ -20,10 +18,15 @@ public static class Library
     {}
     public static void ReturnBook(Guid userId, Guid bookId)
     {}
-    // public List<Book> SearchBooks(string keyword)
-    // {
-    //     return;
-    // }
+    public List<Book> SearchBooks(string keyword)
+    {
+        for(int i=0; i<Books.Count; i++)
+        {
+            // bool x = EqualityComparer<Book>.Default.Equals(Books[i].Title, keyword);
+            // Books[i].Title;
+        }
+        return;
+    }
     public static void ListAllBooks()
     {
         int bookCount = 0;
