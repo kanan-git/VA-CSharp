@@ -6,6 +6,10 @@ public class Manager:Person
     public string Username {get; set;}
     public string Password {get; set;}
     
+    public void AddNewTable()
+    {}
+    public void RemoveTable()
+    {}
     public void ChangeTableStatus()
     {}
 }

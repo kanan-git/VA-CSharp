@@ -1,12 +1,43 @@
-﻿namespace RestourantModels;
+﻿using CustomExceptions;
+
+namespace RestourantModels;
 
 public static class Admin
 {
-    #region VALUES
-    private static string Password = "123";
-    private static double Balance {get; set;}
-    private static List<Manager> AllManagersList = new List<Manager>(0);
-    private static List<Employee> AllEmployeesList = new List<Employee>(0);
+    #region FIELDS
+    private static string _password = "123";
+    private static double _balance = 0;
+    public static List<Manager> AllManagersList = new List<Manager>(0);
+    public static List<Employee> AllEmployeesList = new List<Employee>(0);
+    #endregion
+
+    #region PROPERTIES
+    public static void VerifyPassword(string input)
+    {
+        if(input != _password)
+        {
+            throw new WrongPasswordException();
+        }
+    }
+    public static double CheckBalance()
+    {
+        return _balance;
+    }
+    public static void Deposit(double amount)
+    {
+        _balance += amount;
+    }
+    public static void Withdraw(double amount)
+    {
+        try
+        {
+            _balance -= amount;
+        }
+        catch(InsufficientBalanceException)
+        {
+            throw;
+        }
+    }
     #endregion
 
     #region MANAGER
@@ -23,11 +54,11 @@ public static class Admin
     #region EMPLOYEES
     public static void ShowEmployees()
     {}
-    public static void EmployeesDetails()
+    public static void EmployeeDetails()
     {}
-    public static void AddEmployees()
+    public static void AddEmployee()
     {}
-    public static void RemoveEmployees()
+    public static void RemoveEmployee()
     {}
     #endregion
 }
