@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
+    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -23,27 +38,28 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Interfaces >= 1.0.0",
       "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\kanan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 23\\Task1\\Executable\\Executable.csproj",
+      "projectUniqueName": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 23\\Task1\\Executable\\Executable.csproj",
       "projectName": "Executable",
-      "projectPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 23\\Task1\\Executable\\Executable.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 23\\Task1\\Executable\\obj\\",
+      "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 23\\Task1\\Executable\\Executable.csproj",
+      "packagesPath": "C:\\Users\\kanan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 23\\Task1\\Executable\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -58,8 +74,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 23\\Task1\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\KB\\VACSharp\\2026 01 23\\Task1\\Models\\Models.csproj"
+            "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 23\\Task1\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 23\\Task1\\Interfaces\\Interfaces.csproj"
+            },
+            "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 23\\Task1\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\kanan\\OneDrive\\Desktop\\VA-CSharp\\CLASSROOM NOTES\\2026 01 23\\Task1\\Models\\Models.csproj"
             }
           }
         }
