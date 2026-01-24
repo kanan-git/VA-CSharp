@@ -1,4 +1,6 @@
 namespace RestourantModels;
 
-public class Client
-{}
+public class Client:Person
+{
+    public int SelectedTable {get; set;}
+}

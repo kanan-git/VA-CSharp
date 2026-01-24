@@ -1,4 +1,6 @@
 namespace RestourantModels;
 
-public class Employee
-{}
+public class Employee:Person
+{
+    public Guid Id = Guid.NewGuid();
+}

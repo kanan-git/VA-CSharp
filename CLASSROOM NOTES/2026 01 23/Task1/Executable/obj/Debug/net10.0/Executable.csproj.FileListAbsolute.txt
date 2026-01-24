@@ -38,3 +38,5 @@ C:\Users\kanan\OneDrive\Desktop\VA-CSharp\CLASSROOM NOTES\2026 01 23\Task1\Execu
 C:\Users\kanan\OneDrive\Desktop\VA-CSharp\CLASSROOM NOTES\2026 01 23\Task1\Executable\obj\Debug\net10.0\Executable.csproj.Up2Date
 C:\Users\kanan\OneDrive\Desktop\VA-CSharp\CLASSROOM NOTES\2026 01 23\Task1\Executable\obj\Debug\net10.0\Executable.genruntimeconfig.cache
 C:\Users\kanan\OneDrive\Desktop\VA-CSharp\CLASSROOM NOTES\2026 01 23\Task1\Executable\obj\Debug\net10.0\ref\Executable.dll
+C:\Users\kanan\OneDrive\Desktop\VA-CSharp\CLASSROOM NOTES\2026 01 23\Task1\Executable\bin\Debug\net10.0\CustomExceptions.dll
+C:\Users\kanan\OneDrive\Desktop\VA-CSharp\CLASSROOM NOTES\2026 01 23\Task1\Executable\bin\Debug\net10.0\CustomExceptions.pdb
