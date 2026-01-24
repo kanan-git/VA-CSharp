@@ -1,3 +1,4 @@
+// using System.Security.Authentication;
 using CustomExceptions;
 
 namespace RestourantModels;
@@ -120,6 +121,43 @@ public static class Menu
     #region MANAGER
     public static void OpenManagerMenu()
     {
+        Manager? SelectedManager = null;
+
+        if(Admin.AllManagersList.Count)
+        {
+            Console.Write("Enter Username");
+            string InputUsername = Console.ReadLine();
+            Console.Write("Enter Password");
+            string InputPassword = Console.ReadLine();
+
+            foreach(Manager manager in Admin.AllManagersList)
+            {
+                if(manager.Username == InputUsername)
+                {
+                    if(manager.Password == InputPassword)
+                    {
+                        SelectedManager = manager;
+                        Restourant.ActiveManager = manager;
+                    }
+                    else
+                    {
+                        throw new Exception();
+                    }
+                }
+            }
+
+            if(SelectedManager == null)
+            {
+                Console.WriteLine("Invalid Credentials! Try Again.");
+                return;
+            }
+        }
+        else
+        {
+            Console.WriteLine("No Manager Found.");
+            return;
+        }
+
         Console.WriteLine("————————————————————————————————————————————————");
         Console.WriteLine("  RESTOURANT / MANAGER PANEL");
         Console.WriteLine("————————————————————————————————————————————————");
@@ -133,13 +171,18 @@ public static class Menu
         switch (selection)
         {
             case "1":
-                // AddNewTable()
+                SelectedManager.AddNewTable();
                 break;
             case "2":
-                // RemoveTable()
+                Console.Write("Enter table number to remove: ");
+                int SelectedTableId = int.Parse(Console.ReadLine());
+                SelectedManager.RemoveTable(SelectedTableId);
                 break;
             case "3":
-                // Manager check from list active manager id from field which created object in admin, then with that Manager type object, use ChangeTableStatus() method, may we can use intarface for authentication
+                Console.Write("Enter table number: ");
+                int SelectedTableId = int.Parse(Console.ReadLine());
+                bool SelectedTableStatus = bool.Parse(Console.ReadLine());
+                SelectedManager.ChangeTableStatus(TableId:SelectedTableId, TableStatus:SelectedTableStatus);
                 break;
             case "0":
                 return;
@@ -152,6 +195,12 @@ public static class Menu
     #region USER
     public static void OpenUserMenu()
     {
+        if(Restourant.ActiveManager == null)
+        {
+            Console.WriteLine("Sorry. Restourant is closed now. Try later.");
+            return;
+        }
+
         Console.WriteLine("————————————————————————————————————————————————");
         Console.WriteLine("  RESTOURANT / MAIN MENU");
         Console.WriteLine("————————————————————————————————————————————————");
@@ -163,8 +212,19 @@ public static class Menu
         switch (selection)
         {
             case "1":
-                // use ShowAllTables() on Manager, use ShowAVailableTables() on here
-                // same as manager, via logged (created object) client, use SelectedTable field, then use static Restourant
+                Client NewClient = new Client();
+
+                Console.Write("Your First Name: ");
+                NewClient.FirstName = Console.ReadLine();
+                Console.Write("Your Last Name: ");
+                NewClient.LastName = Console.ReadLine();
+
+                Restourant.ShowAvailableTables();
+
+                Console.Write("Select Table");
+                int TableSelection = int.Parse(Console.ReadLine());
+
+                Restourant.ActiveManager.ChangeTableStatus(TableId: TableSelection, TableStatus: false);
                 break;
             case "0":
                 return;

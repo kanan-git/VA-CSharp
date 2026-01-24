@@ -5,14 +5,14 @@ namespace RestourantModels;
 
 public static class Admin
 {
-    #region FIELDS
+    #region VALUES
     private static string _password = "123";
     private static double _balance = 0;
     public static List<Manager> AllManagersList = new List<Manager>(0);
     public static List<Employee> AllEmployeesList = new List<Employee>(0);
     #endregion
 
-    #region PROPERTIES
+    #region ACCOUNT
     public static void VerifyPassword(string input)
     {
         if(input != _password)
