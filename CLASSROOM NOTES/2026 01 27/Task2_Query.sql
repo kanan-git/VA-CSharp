@@ -23,6 +23,7 @@ Products ------ Suppliers → Many-to-many
 
 /* CREATE DATABASE */
 create database E_Commerce_DB;
+use E_Commerce_DB;
 
 /* CREATING ALL TABLES */
 create table Customers (
@@ -51,7 +52,9 @@ create table Orders(
 create table OrderItems(
 	Id int primary key identity(1,1),
 	Quantity int,
-	UnitPrice int
+	UnitPrice int,
+	OrderId int foreign key references Orders(Id),
+	ProductsId int foreign key references Products(Id)
 );
 create table Suppliers(
 	Id int primary key identity(1,1),
@@ -60,6 +63,16 @@ create table Suppliers(
 );
 create table ProductSuppliers(
 	Id int primary key identity(1,1)
+);
+
+/* M:N RELATION TABLES */
+create table ProductsCategories(
+	ProductId int foreign key references Products(Id),
+	CategoryId int foreign key references Categories(Id)
+);
+create table ProductsSuppliers(
+	ProductId int foreign key references Products(Id),
+	SupplierId int foreign key references Suppliers(Id)
 );
 
 /* SHOW ALL CREATED TABLES AT ONCE */
